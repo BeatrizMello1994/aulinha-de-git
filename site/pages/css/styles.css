@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">);
+
+}
+
+
+    a {
+        text-decoration: none;
+    }
+
+    header {
+        height: 85px;
+        display: flex;
+        align-items: center;
+        box-shadow: ;
+    }
+
+    .navheader {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .containerlinks {
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        width: 220px;
+    }
+
+    .link {
+        font-family: "raleway";
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        justify-content: space-between;
+
+       }
+
+       /* section1 */
+
+h1{
+    font-size: 46px;
+    font-family: "raleway";
+}
+
+
+.secao1{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+    font-family: "raleway";
+}
+
+.paragrafo{
+    font-size: 28px;
+    padding: 45px 0 35px 0;
+}
+
+   
+   .titulo_principaltexto{
+    text-align: left;
+    font-family: "raleway";
+   }
+
+   .botao{
+    border-radius: 10px;
+    width: 244px;
+    height: 62px;
+    left: 112px;
+    top: 466px;
+    background-color: #FF9922;
+   }
+
+
+   /* .section2 */
+
+
+   .section2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.auxiliarh1{
+    text-decoration: uppercase;
+    display: flex;
+}
+
+
+  
