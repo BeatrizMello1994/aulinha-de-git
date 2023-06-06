@@ -1,57 +1,56 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">);
+    
 
 }
 
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    header {
-        height: 85px;
-        display: flex;
-        align-items: center;
-        box-shadow: ;
-    }
+header {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    box-shadow: ;
+}
 
-    .navheader {
-        display: flex;
-        justify-content: space-between;
-        width: 85%;
-        margin: 0 auto;
-    }
+.navheader {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
 
-    .containerlinks {
-        background-color: aqua;
-        display: flex;
-        justify-content: space-between;
-        width: 220px;
-    }
+.containerlinks {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
 
-    .link {
-        font-family: "raleway";
-        font-size: 20px;
-        line-height: 27px;
-        display: flex;
-        justify-content: space-between;
-
-       }
-
-       /* section1 */
-
-h1{
-    font-size: 46px;
+.link {
     font-family: "raleway";
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* section1 */
+
+h1 {
+    font-size: 46px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
-.secao1{
+.secao1 {
     display: flex;
     margin: auto;
     width: 85%;
@@ -59,41 +58,66 @@ h1{
     font-family: "raleway";
 }
 
-.paragrafo{
+.paragrafo {
     font-size: 28px;
     padding: 45px 0 35px 0;
 }
 
-   
-   .titulo_principaltexto{
+
+.titulo_principaltexto {
     text-align: left;
     font-family: "raleway";
-   }
+}
 
-   .botao{
+.botao {
     border-radius: 10px;
     width: 244px;
     height: 62px;
     left: 112px;
     top: 466px;
     background-color: #FF9922;
-   }
-
-
-   /* .section2 */
-
-
-   .section2{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    
 }
 
-.auxiliarh1{
+
+/* .section2 */
+
+
+.secao2 {
+    background-color: aliceblue;
+}
+
+.section2 {
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-around;
+    font-family: "raleway";
+    background-color: blue;
+
+}
+
+.auxiliarh1 {
     text-decoration: uppercase;
     display: flex;
 }
 
 
-  
+.cards{
+    display: flex;
+
+}
+
+
+.section2_mulherzinha {
+    background-color: aqua;
+    display: flex;
+    padding: 40px 0;
+   
+}
+
+.section2_homenzinho{
+    background-color: aquamarine;
+    display: flex;
+    padding-right: 40px 0;
+    gap: 15px;
+}
